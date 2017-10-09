@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/mini.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.hero-text{
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.btn{
+  padding: 10px 30px;
+  border: 2px solid #e67e22;
+}
+.header img{
+  margin-bottom: 80px;
+}
+.header-buttons a{
+  border: 2px solid #e67e22;
+  padding: 10px 30px; /*top rigt (10px) bottom left(30px)*/
+  margin-right: 6px;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+.header-buttons a.btn-full{
+  background-color: #e67e22;
+  color: white;
+}
+.header-buttons a.btn-half:hover{
+  background-color: #e67e22;
+  color: white;
+}
+.navbar-custom{
+  background: transparent;
+}
+ .icon-bar{
+  background: lightgrey;
+}
+.navbar-custom .navbar-nav li a:hover{
+  background: transparent;
+}
+.navbar-custom .navbar-nav li a{
+  color: lightblue;
+}
+.navbar-brand{
+  color: lightgray;
+}
+.offer h1::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #e67e22;
+  position: absolute;
+  bottom: -150px;
+  margin-left:-105px;
+}
+.offer h1{
+  margin-top: 90px;
+}
+.descriptions{
+  margin-top: 50px;
+}
+.gap h2{
+  margin-top: 20px;
+}
+.testimonials{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(images/b.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: white;
+  margin-top: 20px;
+}
+.testimonials .carousel-indicators{
+  bottom: -60px;
+}
+.carousel-inner img{
+  width: 100px;
+  height: 120px;
+  border-radius: 100%;
+  border: 2px solid #e67e22;
+  padding: 3px;
+}
